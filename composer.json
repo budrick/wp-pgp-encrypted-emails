@@ -22,7 +22,7 @@
         }
     ],
     "require": {
-        "singpolyma/openpgp-php": "^0.5.0",
+        "singpolyma/openpgp-php": "^0.6.0",
         "danielruf/secure-shred": "^2"
     },
     "license": "GPL-3.0",

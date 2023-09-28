@@ -1,51 +1,68 @@
-<?php return array (
-  'root' => 
-  array (
-    'pretty_version' => 'dev-main',
-    'version' => 'dev-main',
-    'aliases' => 
-    array (
+<?php return array(
+    'root' => array(
+        'name' => 'fabacab/wp-pgp-encrypted-emails',
+        'pretty_version' => 'dev-develop',
+        'version' => 'dev-develop',
+        'reference' => '1038345e5d6cf1da590521546cb9ebf5062df11b',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
     ),
-    'reference' => '0be4c01840937d1d2201a314e8cd892fd6a51630',
-    'name' => 'fabacab/wp-pgp-encrypted-emails',
-  ),
-  'versions' => 
-  array (
-    'danielruf/secure-shred' => 
-    array (
-      'pretty_version' => '2.0.0',
-      'version' => '2.0.0.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '7f67bba47aa3a29f27dfa1114e775254fbcf6653',
+    'versions' => array(
+        'danielruf/secure-shred' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'reference' => '7f67bba47aa3a29f27dfa1114e775254fbcf6653',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../danielruf/secure-shred',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'fabacab/wp-pgp-encrypted-emails' => array(
+            'pretty_version' => 'dev-develop',
+            'version' => 'dev-develop',
+            'reference' => '1038345e5d6cf1da590521546cb9ebf5062df11b',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'paragonie/constant_time_encoding' => array(
+            'pretty_version' => 'v2.6.3',
+            'version' => '2.6.3.0',
+            'reference' => '58c3f47f650c94ec05a151692652a868995d2938',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../paragonie/constant_time_encoding',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'paragonie/random_compat' => array(
+            'pretty_version' => 'v9.99.100',
+            'version' => '9.99.100.0',
+            'reference' => '996434e5492cb4c3edcb9168db6fbb1359ef965a',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../paragonie/random_compat',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'phpseclib/phpseclib' => array(
+            'pretty_version' => '3.0.23',
+            'version' => '3.0.23.0',
+            'reference' => '866cc78fbd82462ffd880e3f65692afe928bed50',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpseclib/phpseclib',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'singpolyma/openpgp-php' => array(
+            'pretty_version' => '0.6.0',
+            'version' => '0.6.0.0',
+            'reference' => '1c3bdcd2d9c6113c2d6b768e208e7432a48d3a1e',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../singpolyma/openpgp-php',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
     ),
-    'fabacab/wp-pgp-encrypted-emails' => 
-    array (
-      'pretty_version' => 'dev-main',
-      'version' => 'dev-main',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '0be4c01840937d1d2201a314e8cd892fd6a51630',
-    ),
-    'phpseclib/phpseclib' => 
-    array (
-      'pretty_version' => '2.0.31',
-      'version' => '2.0.31.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '233a920cb38636a43b18d428f9a8db1f0a1a08f4',
-    ),
-    'singpolyma/openpgp-php' => 
-    array (
-      'pretty_version' => '0.5.0',
-      'version' => '0.5.0.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '69292f6a46ed7f687083bfb8974b161a41ab213c',
-    ),
-  ),
 );

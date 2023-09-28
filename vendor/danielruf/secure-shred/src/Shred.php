@@ -210,7 +210,7 @@ final class Shred
    */
   private function stringRand($line_length)
   {
-    $blocks = +($line_length / $this->block_size);
+    $blocks = floor(+($line_length / $this->block_size));
 
     if (1 < $blocks) {
       $s    = '';
